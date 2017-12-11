@@ -6,5 +6,10 @@ pipeline {
         echo 'test'
       }
     }
+    stage('') {
+      steps {
+        waitUntil()
+      }
+    }
   }
 }
